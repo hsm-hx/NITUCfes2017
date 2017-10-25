@@ -22,10 +22,14 @@ table{
 }
 header{
 	text-align: center;
+	padding: 10px 0;
 }
 img{
 	vertical-align: bottom;
 	border: 0;
+}
+h1{
+	font-size: 24px;
 }
 a{
 	text-decoration: none;
@@ -64,4 +68,21 @@ a:hover{
 	color: #fff;
 	font-size: 20px;
 	background: #70C7CF;
+}
+.recent{
+	margin: 0 auto;
+	padding: 20px 50px;
+	width: 600px;
+	height: 200px;
+	
+	background: #162223;
+	color: #fff;
+}
+.mark{
+	margin: 20px;
+	padding: 0 20px;
+	
+	background: #fff;
+	color: #162223;
+	font-size: 12px;
 }
