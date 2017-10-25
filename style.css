@@ -24,6 +24,10 @@ header{
 	text-align: center;
 	padding: 10px 0;
 }
+footer{
+	height: 218px;
+	background: url(img/footer.png);
+}
 img{
 	vertical-align: bottom;
 	border: 0;
@@ -45,6 +49,19 @@ a:hover{
 
 .box{
 	background: #d4eef3;
+}
+.link{
+	display: inline-block;
+	margin: 0 30px;
+	padding: 16px 0;
+	
+	width: 260px;
+	height: 80px;
+	
+	vertical-align: top;
+	
+	color: #005BAC;
+	background: url(img/link.png) no-repeat;
 }
 
 .menu{
@@ -165,4 +182,27 @@ a:hover{
 }
 .button img{
 	margin: 50px 30px;
+}
+.howis{
+	text-align: center;
+}
+.howis h1{
+	font-size: 65px;
+}
+.howis .text{
+	position: relative;
+	top: -70px;
+	left: 250px;
+}
+.links{
+	margin-top: 100px;
+	text-align: center;
+}
+.sns{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+.sns img{
+	margin: 0 20px;
 }
