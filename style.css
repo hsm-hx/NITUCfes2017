@@ -43,6 +43,10 @@ a:hover{
 	opacity: 0.7;
 }
 
+.box{
+	background: #d4eef3;
+}
+
 .menu{
 	padding: 10px 30px;
 }
@@ -111,4 +115,54 @@ a:hover{
 	position: relative;
 	margin-top: -80px;
 	left: 400px;
+}
+.enjoy{
+	position: relative;
+	margin-top: 50px;
+}
+.about-button{
+	position: relative;
+	left: 130px;
+	
+	vertical-align: top;
+}
+.enjoy .box{
+	position: absolute;
+	top: 250px;
+	right: 0px;
+	z-index: -10;
+	
+	width: 953px;
+	height: 457px;
+}
+.enjoy .photo{
+	position: absolute;
+	top: 350px;
+	right: 0px;
+}
+.enjoy h1{
+	position: relative;
+	top: -50px;
+	display: inline-block;
+	
+	margin-left: 130px;
+	font-size: 80px;
+}
+.enjoy .text{
+	position: relative;
+	left: -550px;
+}
+.enjoy p{
+	position: relative;
+	top: 30px;
+	left: 130px;
+	
+	display: inline-block;
+}
+.button{
+	margin-top: 50px;
+	text-align: center;
+}
+.button img{
+	margin: 50px 30px;
 }
