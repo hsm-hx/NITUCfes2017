@@ -39,6 +39,11 @@ h1{
 h2{
 	font-size: 24px;
 }
+h3{
+	letter-spacing: 5px;
+	font-size: 30px;
+	color: #0b73cb;
+}
 a{
 	text-decoration: none;
 	color: inherit;
@@ -246,4 +251,17 @@ a:hover{
 	
 	width: 965px;
 	height: 418px;
+}
+.c-g-content{
+	margin: -150px auto 0 auto;
+	width: 779px;
+}
+.content{
+	margin: 50px 20px;
+}
+.content p{
+	margin-bottom: 100px;
+	
+	letter-spacing: 1px;
+	line-height: 30px;
 }
