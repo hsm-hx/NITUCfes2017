@@ -294,3 +294,20 @@ a:hover{
 	letter-spacing: 1px;
 	line-height: 30px;
 }
+/*--ここからschedule--*/
+.schedule-top{
+	height: 419px;
+	text-align: center;
+	background: url(img/schedule-bg.png);
+}
+.schedule-top img{
+	margin-top: 130px;
+}
+.schedule-top p{
+	position: relative;
+	top: 50px;
+	
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
