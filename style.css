@@ -206,3 +206,20 @@ a:hover{
 .sns img{
 	margin: 0 20px;
 }
+
+/*--ここからABOUTページ--*/
+.about-top{
+	height: 418px;
+	
+	text-align: center;
+	background: url(img/about-bg.png);
+}
+.about-top img{
+	padding-top: 140px;
+}
+.about-top p{
+	margin: -110px;
+	
+	color: #fff;
+	font-weight: bold;
+}
