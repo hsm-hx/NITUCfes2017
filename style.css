@@ -218,8 +218,10 @@ a:hover{
 	padding-top: 140px;
 }
 .about-top p{
-	margin: -110px;
+	position: relative;
+	top: 50px;
 	
 	color: #fff;
+	font-size: 20px;
 	font-weight: bold;
 }
