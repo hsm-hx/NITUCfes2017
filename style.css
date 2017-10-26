@@ -225,3 +225,25 @@ a:hover{
 	font-size: 20px;
 	font-weight: bold;
 }
+.c-g{
+	height: 480px;
+}
+.c-g h1{
+	padding-left: 100px;
+	line-height: 110px;
+}
+.c-g p{
+	padding-left: 100px;
+	position: relative;
+	
+	top: -50px;
+	font-size: 20px;
+}
+.c-g .box{
+	position: relative;
+	top: -280px;
+	z-index: -10;
+	
+	width: 965px;
+	height: 418px;
+}
