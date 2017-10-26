@@ -243,6 +243,7 @@ a:hover{
 	
 	top: -50px;
 	font-size: 20px;
+	letter-spacing: 3px;
 }
 .c-g .box{
 	position: relative;
@@ -264,4 +265,24 @@ a:hover{
 	
 	letter-spacing: 1px;
 	line-height: 30px;
+}
+
+/*--ここからAccess--*/
+.access-top{
+	height: 420px;
+	text-align: center;
+	
+	background: url(img/access-bg.png);
+}
+.access-top img{
+	margin-top: 140px;
+}
+.access-top p{
+	margin-top: 50px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	
+	letter-spacing: 3px;
 }
