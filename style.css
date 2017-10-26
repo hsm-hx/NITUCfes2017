@@ -286,3 +286,11 @@ a:hover{
 	
 	letter-spacing: 3px;
 }
+.access-content{
+	margin: 50px auto 150px auto;
+	width: 700px;
+}
+.access-content p{
+	letter-spacing: 1px;
+	line-height: 30px;
+}
