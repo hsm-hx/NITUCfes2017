@@ -51,6 +51,17 @@ a{
 a:hover{
 	opacity: 0.7;
 }
+table{
+	margin-left: 80px;
+}
+th{
+	display: inline-block;
+	margin: 20px 0;
+	width: 182px;
+	
+	font-size: 18px;
+	color: #1d4c5f;
+}
 
 .box{
 	background: #d4eef3;
@@ -310,4 +321,17 @@ a:hover{
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
+}
+.schedule-content{
+	margin: 0 auto;
+	width: 700px;
+}
+.table{
+	height: 800px;
+	background: url(img/day1.png) no-repeat;
+}
+.event{
+	width: 140px;
+	color: #fff;
+	background: rgba(29,76,95,0.8);
 }
