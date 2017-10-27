@@ -326,12 +326,31 @@ th{
 	margin: 0 auto;
 	width: 700px;
 }
-.table{
+.table1{
 	height: 800px;
 	background: url(img/day1.png) no-repeat;
 }
-.event{
-	width: 140px;
-	color: #fff;
-	background: rgba(29,76,95,0.8);
+.table2{
+	height: 800px;
+	background: url(img/day2.png) no-repeat;
+}
+#detail-1{
+	position: relative;
+	top: 460px;
+	left: 290px;
+}
+#detail-2{
+	position: relative;
+	top: 460px;
+	left: 335px;
+}
+#detail-3{
+	position: relative;
+	top: 430px;
+	left: 290px;
+}
+#detail-4{
+	position: relative;
+	top: 400px;
+	left: 335px;
 }
