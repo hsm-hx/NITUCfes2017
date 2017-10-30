@@ -354,3 +354,31 @@ th{
 	top: 400px;
 	left: 335px;
 }
+
+/*--ここからPolicy--*/
+.policy-top{
+	height: 420px;
+	text-align: center;
+	
+	background: url(img/policy-bg.png);
+}
+.policy-top img{
+	margin-top: 140px;
+}
+.policy-top p{
+	margin-top: 50px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	
+	letter-spacing: 3px;
+}
+.policy-content{
+	margin: 50px auto 150px auto;
+	width: 700px;
+}
+.policy-content p{
+	letter-spacing: 1px;
+	line-height: 30px;
+}
