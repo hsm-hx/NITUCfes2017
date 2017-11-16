@@ -185,7 +185,7 @@ a:hover{
 
 /* ここからabout.html */
 .about-top{
-	height: 326px;
+	height: 328px;
 	text-align: center;
 	
 	background: url(../img/sp/about-bg.png);
@@ -221,6 +221,14 @@ a:hover{
 .cg-ct{
 	margin-top: -50px;
 	margin-left: 20px;
+}
+
+/* ここからAccess.html */
+.access-top{
+	height: 328px;
+	text-align: center;
+	
+	background: url(../img/sp/access-bg.png);
 }
 
 #nav-drawer {
