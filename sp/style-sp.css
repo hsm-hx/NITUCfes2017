@@ -230,6 +230,23 @@ a:hover{
 	
 	background: url(../img/sp/access-bg.png);
 }
+.access-top p{
+	margin-top: 70px;
+	
+	color: #fff;
+	font-weight: bold;
+}
+.access-title{
+	display: block;
+	
+	margin: 0 auto;
+	
+	position: relative;
+	top: 10px;
+}
+.access{
+	padding: 0 10px;
+}
 
 #nav-drawer {
 	position: relative;
