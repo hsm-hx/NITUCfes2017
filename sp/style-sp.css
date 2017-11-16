@@ -30,6 +30,8 @@ h3{
 	letter-spacing: 5px;
 	font-size: 30px;
 	color: #0b73cb;
+	
+	text-align: left;
 }
 .link{
 	margin: 20px auto;
@@ -75,6 +77,20 @@ a:hover{
 }
 .button{
 	margin: 50px 10px;
+}
+.but-y{
+	display: inline-block;
+	
+	width: 290px;
+	height: 52px;
+	
+	margin: 50px 0px;
+	padding: 25px 0;
+	
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/sp/but-y.png) no-repeat;
 }
 
 .top{
@@ -246,6 +262,46 @@ a:hover{
 }
 .access{
 	padding: 0 10px;
+}
+
+/* ここからschedule.html */
+.schedule-top{
+	height: 338px;
+	text-align: center;
+	
+	background: url(../img/sp/schedule-bg.png);
+}
+.schedule-top p{
+	margin-top: 90px;
+	
+	color: #fff;
+	font-weight: bold;
+}
+.schedule-title{
+	display: block;
+	
+	margin: 0 auto;
+	
+	position: relative;
+	top: 20px;
+}
+.schedule{
+	padding: 0 10px;
+	text-align: center;
+}
+.day1{
+	margin: 0 auto;
+	
+	width: 419px;
+	height: 662px;
+	background: url(../img/sp/day1.png) no-repeat;
+}
+.day2{
+	margin: 0 auto;
+	
+	width: 419px;
+	height: 662px;
+	background: url(../img/sp/day2.png) no-repeat;
 }
 
 #nav-drawer {
