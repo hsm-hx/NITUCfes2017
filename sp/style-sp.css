@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 612px;
+	
+	font-size: 18px;
+	font-family: 'Quicksand', '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+header{
+  padding:10px;
+}
+footer{
+	width: 612px;
+	height: 505px;
+	background: url(../img/sp/footer.png);
+}
+h1{
+	font-size: 100px;
+	color: #162223;
+}
+h2{
+	font-size: 24px;
+}
+h3{
+	letter-spacing: 5px;
+	font-size: 30px;
+	color: #0b73cb;
+}
+.link{
+	margin: 20px auto;
+	padding: 30px 0;
+	
+	width: 558px;
+	height: 27px;
+	
+	vertical-align: top;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	
+	color: #005BAC;
+	background: url(../img/sp/button-b.png) no-repeat;
+}
+ul{
+   	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+table{
+	border-collapse: collapse;
+}
+img{
+	vertical-align: bottom;
+	border: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	opacity: 0.7;
+}
+
+.logo{
+	padding: 10px 40px;
+	
+	vertical-align: middle;
+}
+.button{
+	margin: 50px 10px;
+}
+
+.top{
+	height: 1092px;
+	text-align: center;
+	
+	background: url(../img/sp/top_bg.png);
+}
+.top p{
+	position: relative;
+	top: 550px;
+	
+	color: #fff;
+	font-size: 18px;
+}
+.top-title{
+	position: relative;
+	top: 350px;
+}
+.scroll{
+	position: relative;
+	top: 632px;
+	
+	display: inline-block;
+	padding: 30px 0;
+	margin: 0 auto;
+	width: 500px;
+	
+	color: #fff;
+	font-size: 20px;
+	background: #70C7CF;
+}
+.info{
+	padding: 20px 50px;
+	height: 200px;
+	
+	background: #162223;
+	color: #fff;
+}
+.mark{
+	margin: 20px;
+	padding: 0 20px;
+	
+	background: #fff;
+	color: #162223;
+	font-size: 12px;
+}
+.about{
+	margin: 50px auto;
+	text-align: center;
+}
+.about h1{
+	text-align: left;
+	margin-left: 10px;
+}
+.about p{
+	text-align: left;
+}
+.about-ct{
+	position: relative;
+	z-index: -9999;
+	
+	margin-top: -130px;
+}
+.about-text{
+	margin-top: 50px;
+}
+
+.enjoy{
+	text-align: center;
+}
+.enjoy h1{
+	font-size: 85px;
+	text-align: right;
+}
+.enjoy p{
+	margin: 50px 10px;
+	text-align: left;
+}
+.enjoy-ct{
+	position: relative;
+	z-index: -9999;
+	
+	margin-top: -120px;
+}
+
+.howis{
+	text-align: center;
+}
+.howis h1{
+	font-size: 64px;
+}
+.howis-text{
+	margin-top: -50px;
+}
+.howis-img{
+	margin-top: 20px;
+}
+
+.links{
+	margin: 50px 0;
+}
+
+#nav-drawer {
+	position: relative;
+	right: -300px;
+	
+	display: inline-block;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #555;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 330px;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #fff;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
