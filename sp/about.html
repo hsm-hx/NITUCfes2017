@@ -4,19 +4,20 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style-sp.css">
 		<title>宇部高専第54回高専祭非公式ホームページ</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+			$("#menu").load("menu.html");
+			})
+		</script>
 	</head>
 
 	<body>
 		<header>
-			<img src="../img/logo.png" class="logo">
-			<div id="nav-drawer">
-				<input id="nav-input" type="checkbox" class="nav-unshown">
-				<label id="nav-open" for="nav-input"><span></span></label>
-				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-				<div id="nav-content">ここに中身を入れる</div>
-			</div>
+			<div id="header"></div>
 		</header>
-		
 		<div class="about-top">
 			<img src="../img/official.png" class="official">
 			<img src="../img/sp/about-title.png" class="about-title">
