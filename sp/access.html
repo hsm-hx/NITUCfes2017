@@ -5,21 +5,19 @@
 		<link rel="stylesheet" href="style-sp.css">
 		<title>宇部高専第54回高専祭非公式ホームページ</title>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+			})
+		</script>
 	</head>
 
 	<body>
-		<header>
-			<img src="../img/logo.png" class="logo">
-			<div id="nav-drawer">
-				<input id="nav-input" type="checkbox" class="nav-unshown">
-				<label id="nav-open" for="nav-input"><span></span></label>
-				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-				<div id="nav-content">ここに中身を入れる</div>
-			</div>
-		</header>
+		<div id="header"></div>
 		
 		<div class="access-top">
-			<img src="../img/official.png" class="official">
+			<a href="http://www2.ube-k.ac.jp/Fes2017/" target="_blank"><img src="../img/official.png" class="official"></a>
 			<img src="../img/sp/access-title.png" class="access-title">
 			<p>Access</p>
 		</div>
@@ -50,16 +48,6 @@
 				※自転車と、125cc以下のバイクは、グラウンドにございます、自転車・バイク用駐車スペースをご利用いただけます。
 			</p>
 		</div>
-		<div class="howis">
-			<h1>How is your KOSENSAI?</h1>
-			<img src="../img/howis-text.png" class="howis-text">
-			<img src="../img/sp/howis-img.png" class="howis-img">
-		</div>
-		<div class="links">
-			<div class="link">宇部高専公式サイトはこちら</div>
-			<div class="link">高専祭公式サイトはこちら</div>
-			<div class="link">このサイトについて</div>
-		</div>
-		<footer></footer>
+		<div id="footer"></div>
 	</body>
 </html>
